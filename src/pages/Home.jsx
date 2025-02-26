@@ -120,7 +120,7 @@ const Home = () => {
                 <FaLocationArrow /> Find Nearest Ambulance
               </button>
               <button className="bg-red-700 text-white font-bold py-3 px-6 rounded-full hover:bg-red-800 transition flex items-center justify-center gap-2">
-                <FaPhone /> Call Emergency (108)
+                <FaPhone /> Request Urgent Ambulance
               </button>
             </div>
           </div>

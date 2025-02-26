@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { auth, db } from '../firebase/config';
 import { onAuthStateChanged } from 'firebase/auth';
 import { collection, query, where, getDocs, orderBy } from 'firebase/firestore';
-import { FaAmbulance, FaUser, FaHistory, FaMapMarkerAlt, FaCalendarAlt, FaPhone } from 'react-icons/fa';
+import { FaAmbulance, FaUser, FaHistory, FaMapMarkerAlt, FaCalendarAlt, FaLock } from 'react-icons/fa';
 
 const Dashboard = () => {
   const [user, setUser] = useState(null);

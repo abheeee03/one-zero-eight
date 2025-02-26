@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
   return (
-    <nav className="bg-red-600 text-white shadow-md">
+    <nav className="bg-red-600 text-white shadow-md p-2">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -17,13 +17,11 @@ const Navbar = () => {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="hover:text-red-200 transition">Home</Link>
             <Link to="/about" className="hover:text-red-200 transition">About</Link>
-            <Link to="/services" className="hover:text-red-200 transition">Services</Link>
             <Link to="/contact" className="hover:text-red-200 transition">Contact</Link>
             <Link to="/login" className="flex items-center space-x-1 bg-white text-red-600 px-4 py-2 rounded-full font-medium hover:bg-red-100 transition">
-              <FaUser />
-              <span>Login</span>
+            <FaAmbulance />
+              <span>Are you an ambulance provider?</span>
             </Link>
           </div>
           
